@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    color:white;
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+#barra{
+    width: 100%;
+    background-color:grey;
+    font-weight: bold;
+    font-size: 120% ;
+    padding: 5px;
+    height: 30px;
+}
+#logo{
+    float: left;
+    font-weight: bold;
+    font-size: 120% ;
+    padding: 3px 5px;
+}
+
+
+#contenedorBotones{
+    margin:0 auto;
+    width: 250px;
+}
+
+.boton{
+    float:left;
+    border: 1px solid white;
+    padding: 7px;
+    border-right: none;
+    font-size: 50% ;
+}
+
+#output{
+    border-right: 1px solid white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#html{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.botonMarcado{
+    background-color:green;
+}
+
+.activo{
+    background-color: skyblue;
+}
+
+textarea{
+    resize: none;
+    border-color: grey;
+    
+}
+
+.panel{
+    float: left;
+    width: 24%;
+    height: 90%;
+    border-left: none;
+    
+}
+iframe{
+    border-color: black;
+    border: none;
+    background-color: white;
+}
+
+.oculto{
+    display:none;
+}

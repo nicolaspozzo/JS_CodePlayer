@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>CodePlayer</title>
+
+    <link rel=stylesheet type=text/css href=style.css>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src=jquery-ui/jquery-ui.js></script>
+    <link rel=stylesheet href=jquery-ui/jquery-ui.css>
+
+</head>
+
+<body>
+
+    <div id=barra>
+        <div id=logo>
+            CodePlayer
+        </div>
+        <div id=contenedorBotones>
+            <div class="boton activo" id=html >HTML</div>
+            <div class="boton activo" id=css>CSS</div>
+            <div class="boton activo" id=javascript>JAVASCRIPT </div>
+            <div class="boton activo" id=output>OUTPUT</div>
+        </div>
+    </div>
+
+<div id=contenedorBody> 
+    <textarea class="panel " id=htmlPanel><p>Feliz día a todos</p></textarea>
+    <textarea class="panel " id=cssPanel>p{color: green;}</textarea>
+    <textarea class="panel " id=javascriptPanel>//alert("Hola");</textarea>
+    <iframe class="panel" id=outputPanel></iframe>
+</div>
+
+
+
+
+<script type=text/javascript src=script.js></script>
+
+</body>
+
+</html>
